@@ -1,5 +1,5 @@
 import pandas as pd
-from review import Review
+from .review import Review
 
 def load_reviews(path="../data/reviews_segment.pkl"):
     df = pd.read_pickle(path)
