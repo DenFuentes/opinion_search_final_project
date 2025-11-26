@@ -1,5 +1,3 @@
-# src/review.py
-
 class Review:
     def __init__(
         self,
