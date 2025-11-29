@@ -24,6 +24,7 @@ class Review:
         self.sentences = None
         self.pos_words = None
         self.neg_words = None
+        self.method1_rating = None
 
     def _safe_int(self, value):
         """Safely convert value to int, return 0 if conversion fails"""
